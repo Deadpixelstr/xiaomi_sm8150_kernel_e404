@@ -1,4 +1,5 @@
-ccflags-y := -I$(srctree)/include/linux
+# SPDX-License-Identifier: GPL-2.0-only
+ccflags-y += -I$(src)
 
 msm_kgsl_core-y = \
 	kgsl.o \

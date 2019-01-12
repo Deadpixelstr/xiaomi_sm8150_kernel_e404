@@ -1,4 +1,6 @@
-ccflags-y += -I$(srctree)/drivers/media/platform/msm/vidc/
+# SPDX-License-Identifier: GPL-2.0-only
+ccflags-y += -I$(srctree)/drivers/media/platform/msm/vidc/ \
+    -I$(srctree)/drivers/devfreq/
 
 msm-vidc-objs := msm_v4l2_vidc.o \
                                 msm_v4l2_private.o \

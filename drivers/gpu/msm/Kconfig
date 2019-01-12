@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-2.0-only
 config QCOM_KGSL
 	tristate "Qualcomm Technologies, Inc. 3D Graphics driver"
 	default n

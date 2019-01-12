@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: GPL-2.0-only
+
 menu "Qualcomm Technologies, Inc. Charger and Fuel Gauge support"
 
 config QPNP_FG_GEN3
